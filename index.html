@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>client</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  </head>
+  <body>
+
+    <div class="main">
+      <div class="black_screen"></div>
+        <div class="sidebar ">
+
+        
+          <h2 class="close_btn" >+</h2>
+          <div class="sidebar_logo_box">
+            <img src="./images/sidebar-logo.png" alt="" />
+          </div>
+
+          <div class="sidebar_sec_2">
+            <div class="side_zendesk">
+              <img src="./images/zendesk-logo.png" alt="" />
+              <div class="dropdown">
+                <h3>zendesk</h3>
+                <img src="./images/angle-down.png" alt="" />
+              </div>
+              <div class="side_content">
+                <p>tech</p>
+                <p>company</p>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar_buttons">
+              <a href="#overview" class="sidebar_buttons-btn active ">
+              <div class="sidebar_button_imagebox">
+                <i class="fas fa-calendar-plus"></i>
+              </div>
+              overview
+            </a>
+            <a href="#insights" class="sidebar_buttons-btn">
+              <div class="sidebar_button_imagebox">
+                <i class="fas fa-chart-bar"></i>
+              </div>
+              insights
+            </a>
+            <a href="#ratings" class="sidebar_buttons-btn">
+              <div class="sidebar_button_imagebox">
+                <i class="fas fa-hand-holding-heart"></i>
+              </div>
+              ratings
+            </a>
+            <a href="#scts" class="sidebar_buttons-btn">
+              <div class="sidebar_button_imagebox">
+                <i class="fas fa-stream"></i>
+              </div>
+              scale cycle timeline
+            </a>
+          </div>
+          <div  class="sidebar_buttons">
+            <a href="#prospecting" class="sidebar_buttons-btn">
+              <div class="sidebar_button_imagebox">
+
+                <i class="fas fa-hand-spock"></i>
+              </div>
+              prospecting
+            </a>
+            <a href="#obj_handling" class="sidebar_buttons-btn">
+              <div class="sidebar_button_imagebox">
+
+                <i class="fas fa-ticket-alt"></i>
+              </div>
+              object handling
+            </a>
+            <a href="#ctd" class="sidebar_buttons-btn">
+              <div class="sidebar_button_imagebox">
+
+                <i class="fab fa-delicious"></i>
+              </div>
+              closing the deal
+            </a>
+          </div>
+        </div>
+
+      <div class="right-side" >
+        <div id="overview" class="header section">
+          <div class="sidebar_ham" style="display: flex; align-items: center;">
+            <img class="button_mobail" src="./images/hamburger.png" alt="">
+            <!-- <img class="button" src="./images/hamburger.png" alt=""> -->
+            <h1 class="h">overview</h1>
+          </div>
+
+          <div class="header_right_side">
+            <div class="input_box">
+              <label for="search" class="input_box_label">
+                <img src="./images/search.png" alt="" />
+              </label>
+              <input type="text" id="search" placeholder="company search" />
+            </div>
+            <div class="profile">
+              <img class="setting_image" src="./images/settings.png" alt="" />
+              <img class="bell_image" src="./images/bell.png" alt="" />
+              <div style="display: flex; align-items: center">
+                <img
+                  class="profile_images"
+                  src="./images/Jordan-Belfort.png"
+                  alt=""
+                />
+                <p class="profile_text">jordan belfort</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero_section">
+          <div class="hero_left">
+            <div class="hero_left_header">
+              <img src="./images/domino.png" alt="" />
+              <h2>zendex inc.</h2>
+            </div>
+
+            <div class="content">
+              <p class="content_heading">
+                Zendesk is an American service-first CRM company that develops
+                customer service software built to improve customer
+                relationships. Zendesk was Founded in 2007 in Copenhagen,
+                Denmark and is currently headquartered in San Francisco. Zendesk
+                serves 70,000 customers in over 30 languages.
+              </p>
+
+              <div class="address">
+                <img src="./images/map-marker.png" alt="" />
+                <p>San Francisco, US</p>
+              </div>
+              <div class="address">
+                <img src="./images/globe.png" alt="" />
+                <p>www.zendesk.com</p>
+              </div>
+
+              <div class="address">
+                <img src="./images/calendar.png" alt="" />
+                <p>Established 2007</p>
+              </div>
+              <div class="address">
+                <img src="./images/flag.png" alt="" />
+                <p>PUBLIC - NYSE: ZEN</p>
+              </div>
+            </div>
+          </div>
+          <div class="hero_right">
+            <div class="hero_right_header">
+              <img src="./images/badge.png" alt="" />
+              <h2>highlights</h2>
+            </div>
+
+            <div class="hero_right_content">
+              <div style="background-color: #09b6d4" class="highligh">
+                <div class="highligh_image_box">
+                  <img src="./images/carbon-chart.png" alt="" />
+                </div>
+                <div class="highligh_content">
+                  <p>market valuation</p>
+                  <h1>$15.5 B</h1>
+                </div>
+              </div>
+
+              <div style="background-color: #af8eff" class="highligh">
+                <div class="highligh_image_box">
+                  <img src="./images/dollar-sign.png" alt="" />
+                </div>
+                <div class="highligh_content">
+                  <p>total funding</p>
+                  <h1>$85.5 M</h1>
+                </div>
+              </div>
+              <div style="background-color: #1f87fd" class="highligh">
+                <div class="highligh_image_box">
+                  <img src="./images/users.png" alt="" />
+                </div>
+                <div class="highligh_content">
+                  <p>Employees  (jan 2021)</p>
+                  <h1>$4000</h1>
+                </div>
+              </div>
+              <div style="background-color: #7fe4f0" class="highligh">
+                <div class="highligh_image_box">
+                  <img src="./images/bar-chart-2.png" alt="" />
+                </div>
+                <div class="highligh_content">
+                  <p>website visits</p>
+                  <h1>82.71 M</h1>
+                </div>
+              </div>
+              <div style="background-color: #7fe4f0" class="highligh">
+                <div class="highligh_image_box">
+                  <img src="./images/users.png" alt="" />
+                </div>
+                <div class="highligh_content">
+                  <p>revenue ( 2021 )</p>
+                  <h1>$1 B</h1>
+                </div>
+              </div>
+              <div style="background-color: #ff0099" class="highligh">
+                <div class="highligh_image_box">
+                  <img src="./images/users.png" alt="" />
+                </div>
+                <div class="highligh_content">
+                  <p>stock price (mar 2021)</p>
+                  <h1>$134.80</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="insights" class="section_1 ">
+          <p>Seller insights about the buying process at Zendesk</p>
+        </div>
+
+        <div class="section_2 section">
+          <div class="section_2_box">
+                         <div class="comma"></div>
+            <p>
+              They do not like to pay variable costs in any way. They prefer to
+              make their own decisions of tiers.They were very details-oriented
+            </p>
+            <div class="section_2_box_img sec_2_img1 "></div>
+            <h4 class="user_desig"> Enterprise Account Executive</h4>
+          </div>
+          <div class="section_2_box">
+            <div class="comma"></div>
+            <p>
+              Being willing to negotiate; build relationships and being
+              indifferent to the sale were all contributors to this deal
+            </p>
+            <div class="section_2_box_img sec_2_img2"></div>
+            <h4 class="user_desig"> Sales Training Manager</h4>
+          </div>
+          <div class="section_2_box">
+            <div class="comma"></div>
+            <p>
+              Great demo that showed solutions to current obstacles within the
+              platform,proved in real-time what the platform can do.
+            </p>
+            <h4 class="user_desig"> Account Executive </h4>
+            <div class="section_2_box_img sec_2_img1"></div>
+          </div>
+        </div>
+
+        <div class="section_1">
+          <p>
+            Stats - Based on authentic reviews of sales professionals who sold
+            to Zendesk
+          </p>
+        </div>
+
+        <!-- rattings starts =========== -->
+
+        <div id="ratings" class="ratings section">
+
+          <!-- <h3>ratings</h3>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="rating_chart rat_one">
+                  <h2>6.0</h2>
+                  <p>Deal
+                    Friendliness</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="rating_chart rat_two">
+                  <h2>6.5</h2>
+                  <p>technical sophistication</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="rating_chart rat_three">
+                  <h2>5.5</h2>
+                  <p>Innovation Level</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="rating_chart rat_fourth">
+                  <h2>9.1</h2>
+                  <p>Price Sensitivity</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div> -->
+          
+          <div class="rating_charts">
+            <div class="rating_chart rat_one">
+              <h2>6.0</h2>
+              <p>Deal
+                Friendliness</p>
+            </div>
+            <div class="rating_chart rat_two">
+              <h2>6.5</h2>
+              <p>technical sophistication</p>
+            </div>
+            <div class="rating_chart rat_three">
+              <h2>5.5</h2>
+              <p>Innovation Level</p>
+            </div>
+            <div class="rating_chart rat_fourth">
+              <h2>9.1</h2>
+              <p>Price Sensitivity</p>
+            </div>
+          </div>
+        </div>
+   <!-- rattings ends =========== -->
+
+        <!-- Sales Cycle Timeline starts ======== -->
+        <div id="scts" class="scts section">
+          <h3>Sales Cycle Timeline</h3>
+
+          <div class="sales_metere">
+            <p class="scts_head">initial approach </p>
+            <div class="metere_container">
+
+              <div class="metere">
+                <div class="metere_1"></div>
+                <div class="metere_2">
+                  <p>legal</p>
+                </div>
+              </div>
+
+
+
+              <div class="metere_2_cont">
+                <div class="metere2_one">
+                  <p>8.5 months</p>
+                </div>
+                <div class="metere2_two">
+                  <p>1 month</p>
+                </div>
+              </div>
+
+
+
+            </div>
+            <p class="scts_head">closing the sale</p>
+          </div>
+
+
+
+          <p class="scts_outer_text">At Zendesk, on average, legal process takes 9.6% from total sales procees time. 
+          </p>
+
+
+
+        </div>
+        <!-- Sales Cycle Timeline ends   ======== -->
+
+     
+
+        <!-- prospecting starts ======== -->
+
+        <div id="prospecting" class="prospecting section">
+          <h1>prospecting</h1>
+          <div class="prospecting_sec1">
+            <div class="prospecting_left">
+              <p>Initial connection with Zendesk made by:</p>
+
+              <div class="plane_charts">
+                <div class="plane_chart">
+                  <p>45.2%</p>
+                  <div class="planeChart planeOne">
+                    <div style="width: 45.2%;" class="planechart_metre"></div>
+                  </div>
+                </div>
+                <div class="plane_chart">
+                  <p>39.6%</p>
+                  <div class="planeChart planeTwo">
+                    <div style="width: 39.6%;" class="planechart_metre"></div>
+                  </div>
+                </div>
+                <div class="plane_chart">
+                  <p>10.7%</p>
+                  <div class="planeChart planeThree">
+                    <div style="width: 10.7%;" class="planechart_metre"></div>
+                  </div>
+                </div>
+                <div class="plane_chart">
+                  <p>4.5%</p>
+                  <div class="planeChart planeFourth">
+                    <div style="width: 4.5%;" class="planechart_metre"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="prospecting_right">
+              <p>Sponsor of this sales process in management.</p>
+              <div class="plane_charts">
+                <div class="plane_chart_2">
+                  <p>45.2%</p>
+                  <div class="planeChart_2">
+                    <div style="width: 45.2%;" class="planechart_2_metre"></div>
+                    <p>VP/Senior VP</p>
+                  </div>
+                </div>
+                <div class="plane_chart_2">
+                  <p>39.6%</p>
+                  <div class="planeChart_2">
+                    <div style="width: 39.6%;" class="planechart_2_metre"></div>
+                    <p>CEO</p>
+                  </div>
+                </div>
+                <div class="plane_chart_2">
+                  <p>10.7%</p>
+                  <div class="planeChart_2">
+                    <div style="width: 10.7%;" class="planechart_2_metre"></div>
+                    <p>C level</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="pros_right_bottom">
+                <p class="bo_he">Was the sponsor the decision maker?</p>
+                <div class="plane_chart_2">
+                  <p>90%</p>
+                  <div class="planeChart_2_bottom">
+                    <div style="width: 90%; background-color: #af8eff;" class="planechart_2_metre"></div>
+                    <p>yes</p>
+                  </div>
+                </div>
+                <h4>90% of the time the sponsor is also the decision-maker</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- prospecting ends ======== -->
+
+        <!-- prospecting_charts starts ======== -->
+        <div class="propecting_charts ">
+          <div class="propecting_charts_1">
+            <p class="hea">Top deal-champoins and deal-enablers in Zendesk:</p>
+            <div class="propecting_charts_1_image">
+              <div class="exp exp_one">
+                <div class="exp_circle c_one"></div>
+                <p>Head of Enterprise R&D</p>
+              </div>
+              <div class="exp exp_two">
+                <div class="exp_circle c_two"></div>
+                <p>Head of Sales</p>
+              </div>
+              <div class="exp exp_three">
+                <div class="exp_circle c_three"></div>
+                <p>Product Manager</p>
+              </div>
+            </div>
+
+            <h4>
+              Zendesk deals that had a champion were 18% shorter on average
+            </h4>
+          </div>
+          <div class="propecting_charts_2">
+            <p class="hea">
+              Was responding an RFP a requirement in the proces?
+            </p>
+            <div style="padding-top: 10px" class="propecting_charts_2_image">
+              <div class="exp_2">
+                <div class="exp_2_circle c_2_one"></div>
+                <p>no</p>
+              </div>
+              <div class="exp_2">
+                <div class="exp_2_circle c_2_two"></div>
+                <p>yes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- prospecting_charts ends ======== -->
+
+        <!-- objection handling starts ============ -->
+
+        <div id="obj_handling" class="obj_h section">
+          <h3>Objection Handling</h3>
+          <div class="obj_handling">
+            <div class="obj_left"></div>
+            <div class="obj_right"></div>
+          </div>
+        </div>
+
+        <!-- objection handling ends   ============ -->
+
+        <!-- closing deal starts =========== -->
+        <div id="ctd" class="cld section">
+          <h3>closing the deal</h3>
+
+          <div  class="cld_12873">
+            <div class="cld_left">
+              <p>Average annual contract value</p>
+              <div class="pricing">
+                <h2>$550,000</h2>
+                <div class="pricing_d">
+                  <p>8% increase</p>
+                  <p>past 90 days</p>
+                </div>
+              </div>
+
+              <div class="breakdown">
+                <p>breakdown :</p>
+                <div class="plane_charts">
+                  <div class="plane_chart_2">
+                    <p>45.2%</p>
+                    <div class="planeChart_2_breakdown">
+                      <div style="width: 50%; background-color: #af8eff ;" class="planeChart_2_breakdown_metere"></div>
+                      <p>0-100k</p>
+                    </div>
+                  </div>
+                  <div class="plane_chart_2">
+                    <p>39.6%</p>
+                    <div class="planeChart_2_breakdown">
+                      <div style="width:60%; background-color: #af8eff ;" class="planeChart_2_breakdown_metere"></div>
+                      <p>100k - 500k</p>
+                    </div>
+                  </div>
+                  <div class="plane_chart_2">
+                    <p>10.7%</p>
+                    <div class="planeChart_2_breakdown">
+                      <div style="width:40%; background-color: #af8eff ;" class="planeChart_2_breakdown_metere"></div>
+                      <p>1M - 5M</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cld_right">
+              <p>Closed deals timing:</p>
+              <div class="cld_chart"></div>
+            </div>
+          </div>
+        </div>
+        <!-- closing deal ends   =========== -->
+
+        <!-- latest news starts ============ -->
+        <div class="ln section">
+          <h3>latest news</h3>
+
+          <div class="latest_news">
+            <div class="ln_left">
+              <div
+                style="margin-bottom: 1rem; display: flex; align-items: center"
+              >
+                <img
+                  style="margin-right: 1rem"
+                  src="./images/calendar.png"
+                  alt=""
+                />
+                <p>Feb 15, 2021</p>
+              </div>
+
+              <a style="color: grey" href="https://martechseries.com/sales-marketing/customer-experience-management/zendesk-whatsapp-partner-enable-powerful-conversational-experiences/">
+                Zendesk-WhatsApp Partner to Enable Powerful Conversational
+                Experiences
+              </a>
+
+              <div class="ln_content">
+                <img onclick="openWebsite('https://martechseries.com/sales-marketing/customer-experience-management/zendesk-whatsapp-partner-enable-powerful-conversational-experiences/')" style="cursor: pointer;"  src="./images/image 12.png" alt="" />
+                <a href="https://martechseries.com/sales-marketing/customer-experience-management/zendesk-whatsapp-partner-enable-powerful-conversational-experiences/">
+                  Chosen as one of WhatsApp’s first core solution providers,
+                  Zendesk will provide enhanced customer conversations on the
+                  WhatsApp messaging service directly within Zendesk
+                </a>
+              </div>
+            </div>
+            <div class="ln_right">
+              <div
+                style="margin-bottom: 1rem; display: flex; align-items: center"
+              >
+                <img
+                  style="margin-right: 1rem"
+                  src="./images/calendar.png"
+                  alt=""
+                />
+                <p>January 15, 2021</p>
+              </div>
+
+              <a style="color: grey" href="http://createsend.com/t/d-10EE929D869BB3DA2540EF23F30FEDED">
+                Zendesk CIO Looks to Scale IT as It Chases $1 Billion in Revenue
+              </a>
+
+              <div class="ln_content">
+                <img style="cursor: pointer;" onclick="openWebsite('http://createsend.com/t/d-10EE929D869BB3DA2540EF23F30FEDED')" src="./images/image 13.png" alt="" />
+                <a href="http://createsend.com/t/d-10EE929D869BB3DA2540EF23F30FEDED">
+                  the goal is to make deliveries more efficient and boost
+                  productivity. But first, to get buy-in from truckers.“In the
+                  past their reaction has been ‘more big brother watching us,new
+                  tools mean it's something they would use right away.”
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- latest news ends   ============ -->
+      </div>
+    </div>
+
+
+
+  
+    
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="app.js"></script>
+   
+  </body>
+</html>
